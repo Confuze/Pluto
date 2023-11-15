@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Aleo', serif;
+	scroll-behavior: smooth;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-bottom: 4px;
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+li {
+	padding-left: 0;
+	list-style-position: inside;
+	list-style-type: disc;
+}
